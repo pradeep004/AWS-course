@@ -1,0 +1,7 @@
+First day of AWS developer course:
+1).Create the AWS account:-
+https://portal.aws.amazon.com/billing/signup#/start
+Fallow through the steps to create a free account
+2).Activate the account by adding the payment methood that recieverd to your email and verify your phone number.
+3).After adding the payment you will get diducted by an Euro to confirm you'll get refunded in 3-4 working days.
+4).Download the resources that are required.
