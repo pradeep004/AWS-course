@@ -1,0 +1,24 @@
+AWS day one:
+History of the AWS:
+It first launched in 2002 internally to handle the data.
+Then in 2003 the idea of lunching the AWS outside companies.
+In 2004 lauched publically with SQS.Again in 2006 relauched with SQS, S3 and EC2.
+In 2007 launched in EUROPE.
+
+1).In 2019  AWS has 35 billion dollar annual revenue with 47% market.
+It has over 1 million active users.
+
+
+Appplication of the AWS:
+1.It enables to use scalable, sophisticated.
+2.It can be used in the diverse set of industries.
+Use Cases:
+IT, Backup, Storage, Big data analysis.
+Website hosting mobile appication.
+Gaming
+
+AWS Global Infrastursture:
+1.AWS Regions
+2.AWS avilability ZOnes
+3.AWS data centers
+4.AWS Edge Locations
