@@ -1,0 +1,35 @@
+AWS day two:
+IAM:User and Groups
+IAM: Identity and access Management Global Service.
+1.create the users 
+2.users can be added in one or more groups
+3.group of one user is not a good practice
+
+
+
+
+How to create an user in IAM:
+1.Go to the IAM server and click on the user add >> new user,
+give the user name and create the password for the user click next
+2.Add the MAin(admin) with the administration access click next
+3.add the tags (Roles)for the user and complete 
+4.To confirm the copy the url that has been generated and run in the different browser.
+
+IAM Permission:
+Users can be assigned to the JSOn document called policies
+
+Two policies can be formed:
+group policies
+inline policies for the single user
+
+IAM policies Structures:
+COnsists of the:
+1.Version :always the includes the 2012-10-17
+2.ID
+3.Statement:one or more individual statement
+	Statements consists of :
+	1.Sid:an identifier forthe statement
+	2.Effect: statement allow or deny the access 
+	3.Principle:ACCOunt/User/Role to which this policy is applied
+	4.Action:list of action this policy allows or denies 
+	5.Resource:list of resources to which policy is applied
