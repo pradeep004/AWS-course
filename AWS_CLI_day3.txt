@@ -1,0 +1,27 @@
+How to access the AWS:
+Theer are three ways to access the AWS:
+1.by management console (password +MFA)
+2.by command line interface(CLI) :protected by access
+3.AWS software development kit
+
+
+NOte:DO not share access key to anyone
+
+
+AWS CLI: A tool that enables to access to the AWS through command line
+
+In the Commad line interface:
+step1: you have to generate the access key and 	secreate key for the CLI in Aws console
+step2: In command prompt use command :- AWS CONFIGURE
+step3: Fill in the credintials to get the information
+stpe4: IF the entered credintials are valid you'll get the information you are looking for. 
+
+
+AWS SDK: 
+language specific
+Enables to connect to the AWS through programmatically
+Embedded withih the application
+Such as:
+	moblie os
+	IOs or android
+	 
