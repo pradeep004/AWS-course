@@ -1,0 +1,15 @@
+IAM security tools:
+1).IAM Credentials report(Account level):-This report contains the account of the users and their credentials reports.
+2).IAM Access Advisor(User level):- Access advisor shows permision granted to user and when they last accessed.
+
+
+IAM GuideLines and Practice:
+1.DO not use Root account except for AWS setup
+2.One physical user = One AWS user
+3.Assign user to groups and Assign permission to groups, A user does not neccesarly have to be on groups.
+4.Create a strong password policy.
+5.Use MFA (Multi factor Authentication)
+6.Create a role for giving permission to AWS service
+7.Use Access key  for programmatically CLI
+8.Audit permission of your acccount with the IAM Credentials
+9.NEver share IAM user and Access keys
