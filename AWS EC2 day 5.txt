@@ -1,0 +1,31 @@
+AWS day 5:
+EC2: Elastic Compute Cloud = Infrastructre as a Service
+It mainly consist in the capabilities of:
+1.Renting vertual macahine(EC2)
+2.Storing data on virtual drives(EBS)
+3.Distributing load accross memory(ELB)
+4.Scaling the service using an auto-scaling group(ASG)
+
+***EC2 works on all the operating systems like: Linux,Windows,MacOS
+
+EC2 User Data:
+It is possible to bootsrap our instance using an EC2 user data .
+*Bootstrapping means launching commands when machine starts
+*The Script only run once at the very first time of starting the instance.
+EC2 can perform the boot tasks such as:
+Installing updates
+Installing software
+Downloading the command file from their internet
+
+**EC2 User data Script runs with root user
+
+
+Steps in Launcing the EC2 instance:
+a.Go to the EC2 server 
+b.In EC2 server go to the Instnace and press the create instance.
+c.add the instance class, for basic use t2.micro instance.
+d.add the storage
+e.add security 
+f. write the xml file to the user script in the user data.Hit the launch server.
+g.To verify copy the IPv4 public address and search in browser and it shows private address in your server.
+ 
